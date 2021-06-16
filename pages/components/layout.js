@@ -30,10 +30,10 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/123.png"
+              src="/public/image/profile.jpg"
               className={utilStyles.borderCircle}
-              height={150}
-              width={150}
+              height={144}
+              width={144}
               alt={name}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
@@ -44,7 +44,7 @@ export default function Layout({ children, home }) {
               <a>
                 <Image
                   priority
-                  src="/123.png"
+                  src="/public/image/profile.jpg"
                   className={utilStyles.borderCircle}
                   height={108}
                   width={108}
